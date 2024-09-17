@@ -1,0 +1,125 @@
+body{
+    background-color:beige;
+
+}
+
+
+.container{
+    background-color: beige;
+    width: 100%;
+    /*padding: 5px;*/
+    margin: auto; /*Centrar el container*/
+    margin-top: 70px;
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(209, 146, 51, 0.726);
+    width: 100%;
+}
+
+.contenido{
+    font-family: 'Times New Roman';
+    padding-left: 10px;
+}
+/* Forma 1 de hacerlo
+.header nav ul li{
+    list-style: none;
+} */
+
+
+/*Forma 2 de hacerlo -- esta es mas practico
+elegirlo */
+.menu ul li{
+    list-style: none;
+    float:left;
+    display: block;
+}
+
+.menu ul li a{
+    color: yellow;
+    text-decoration: none;
+    display: inline-block;
+    padding: 5px;
+}
+/* Evento -- Sobre el objeto -- hover */
+
+.menu ul li a:hover{
+color: black;  
+background-color: white;
+}
+
+.container main img{
+    width: 100%;
+    
+}
+
+
+
+
+
+footer{
+    background-color: rgba(red, green, blue, alpha);
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    color: black;
+}
+.posicionRelativa{
+    position: relative;
+    width: 50%;
+    height: 200px;
+    border: 3px solid #73AD21;
+    background-color: #bcf7da;
+    left: 100px;
+}
+
+.posicionAbsoluta{
+    position: absolute;
+    width: 50%;
+    height: 100px;
+    border: 3px solid #73AD21;
+    right: 0;
+    bottom: 0;
+    background-color: #bcf7dc;
+}
+.posicionSticky{
+    position: sticky;
+    border: 2px solid #73AD21;
+    top: 100px;
+    background-color: yellow;
+    width: 10%;
+}
+
+.galleryContenido{
+    background-color: yellow;
+    width: 100%;
+    overflow: hidden;
+}
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+    margin: 15px;
+    
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+    
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+

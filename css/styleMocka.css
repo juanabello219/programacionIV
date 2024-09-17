@@ -1,0 +1,67 @@
+body{
+    background-color: gray;
+
+}
+
+
+.container{
+    background-color: gray;
+    width: 100%;
+    /*padding: 5px;*/
+    margin: auto; /*Centrar el container*/
+    margin-top: 70px;
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(209, 146, 51, 0.726);
+    width: 100%;
+}
+
+.contenido{
+    font-family: 'Times New Roman';
+    padding-left: 10px;
+}
+/* Forma 1 de hacerlo
+.header nav ul li{
+    list-style: none;
+} */
+
+
+/*Forma 2 de hacerlo -- esta es mas practico
+elegirlo */
+.menu ul li{
+    list-style: none;
+    float:left;
+    display: block;
+}
+
+.menu ul li a{
+    color: yellow;
+    text-decoration: none;
+    display: inline-block;
+    padding: 5px;
+}
+/* Evento -- Sobre el objeto -- hover */
+
+.menu ul li a:hover{
+color: black;  
+background-color: white;
+}
+
+.container main img{
+    width: 100%;
+    
+}
+
+
+
+.footer{
+    background-color: gray;
+    width: 100%;
+    padding: 20px;
+    text-align:  center;
+    color: white;
+}
